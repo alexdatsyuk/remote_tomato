@@ -1,0 +1,18 @@
+{
+  "name": "remote_tomato",
+  "version": "0.0.1",
+  "description": "Remote control for Arduino via Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Oleksandr Datsiuk",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0",
+    "serialport": "^6.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
